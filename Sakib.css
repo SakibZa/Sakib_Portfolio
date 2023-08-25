@@ -1,0 +1,517 @@
+/*body */
+body
+{
+    margin:0 auto;
+    
+    
+    
+}
+/*header section*/
+header
+{
+    height:61%;
+    background-image: url(images/img1.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    opacity: 0.8; 
+    width:100%;
+}
+@media screen and (max-width: 600px)
+{
+    header
+    {
+       opacity: 5;
+       width:100%;
+       height:61%;
+        
+    }
+}
+
+  
+
+/*Nav bar in Header*/
+.nav-class
+{
+    
+    list-style: none;
+    text-align: center;
+}
+
+
+
+.nav-class li
+{
+   
+    
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top:8px;
+    
+}
+
+.nav-class li a
+{
+     text-decoration: none;
+    color:white;
+    font-size: 20px;
+    transition: color 0.5sec, border-bottom 4sec;
+    
+}
+@media screen and(max-width:600px)
+{
+    .nav-class li a
+    {
+      font-size:38px;
+    }
+
+
+}
+.nav-class li a:hover
+{
+    color:dimgrey;
+    border-bottom: 2px solid white;
+}
+/*My Name and Social icon inside the Header*/
+.My-name
+{
+        
+   display: block;
+    font-size: 2.7em;
+   font-weight: bold;
+    color: white;
+    margin-left: 550px;
+    margin-top: 120px;
+    letter-spacing: 2px;
+}
+@media screen and (max-width:600px)
+{
+    .My-name
+    {
+         color:black;
+         margin-left: 150px;
+
+    }
+    
+}
+
+
+/*social icon*/
+
+.nav-class1
+{
+    
+    list-style: none;
+    text-align: center;
+}
+.nav-class1 li
+{
+   
+    
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top:8px;
+    
+}
+.nav-class1 li a
+{
+     text-decoration: none;
+    color:black;
+    font-size: 20px;
+    transition: color 0.5sec, border-bottom 4sec;
+    
+}
+
+.nav-class1 li a:hover
+{
+    
+   border-radius: 50%;
+    box-shadow: 0px 0px 8px 12px dimgrey;
+}
+/*About Section*/
+#my-image
+{
+    width: 16%;
+    border-radius: 48%;
+    border: 2px solid darkgrey;
+    margin-left:44%;
+    margin-top: -80px;
+}
+@media screen and (max-width:600px)
+{
+    #my-image
+    {
+      width: 36%;
+    border-radius: 48%;
+    border: 2px solid darkgrey;
+    margin-left:30%;
+    margin-top: -100px;  
+    }
+}
+#about
+{
+    position: relative;/*photo mera uper nhi aa rha tha kunki ye about section hai header me ja lga tha isliye maine wha per about ke position relative kr dii jis se about header ke uper aa gya*/
+}
+.paragraph
+{
+    
+    font-size: 14px;
+        width: 51%;
+    /* text-align: center; */
+    margin-left: 362px;
+    margin-top: 8px;
+    letter-spacing: 2px;
+    font-family: monospace;
+    text-align: left;
+    word-spacing: 1px;
+    line-height: 22px;
+}
+@media screen and (max-width:600px)
+{
+
+
+    .paragraph
+    {
+        color:black;
+        margin-left: 150px;
+
+    }
+}
+
+
+/* Skills Section Class */
+section
+{
+   height:75vh;
+   
+   
+    
+}
+#skill
+{
+      width:59%;
+    margin-left:22%;
+}
+@media screen and (max-width:600px)
+{
+  
+    #skill
+    {
+        
+        margin-top:69%;
+        width:100%;
+        margin-left:3%;
+    }
+
+}
+section:nth-child(2n)
+{
+    background-color:beige;
+    
+}
+section:nth-child(2n+1)
+{
+    background-color:white;
+    
+}
+.Section-Name>div h2
+{
+   color:cadetblue;
+    font-size: 36px;
+    margin-left: 47%;
+}
+@media screen and (max-width:600px)
+{
+    .Section-Name>div h2
+    {
+       color:cadetblue;
+       margin-left:52%; 
+    }
+
+}
+#skill-image
+{
+     width: 58px;
+    height: 50px;
+    margin-top: -61px;
+    margin-left: 348px;
+}
+@media screen and (max-width:600px)
+{
+
+     #skill-image
+     {
+          margin-left:230px;
+     }
+}
+.new
+{
+    margin-left: -29px;
+    margin-top: 13px;
+    color: black;
+}
+
+.Ninty-percent{
+    width: 101px;
+    height: 31px;
+    background-image: linear-gradient(to right, blue 80% , #6c757d 20%);
+    color: white;
+    padding-left: 9px;
+    padding-right: 31px;
+    font-family: cursive;
+    font-size: 21px;
+/*
+    border-bottom-left-radius: 12px;
+     border-bottom-right-radius: 0px; 
+    border-top-left-radius: 12px;
+*/
+    border-radius: 12px;
+}
+@media screen and (max-width:600px)
+{
+    .Ninty-percent
+    {
+
+        margin-top:2%;
+    }
+}
+.skill-container
+{
+    display: flex;
+    flex-direction: row;
+/*    flex-wrap: wrap;*/
+    justify-content: space-around;
+    margin-top:26vh;
+    
+    
+}
+@media screen and (max-width:600px)
+{
+    .skill-container{
+
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left:38%;
+        margin-top:3vh;
+    }
+}
+.Eight-percent
+{
+    width: 101px;
+    height: 31px;
+    background-image: linear-gradient(to right, green 70% , #6c757d 30%);
+    color: white;
+    padding-left: 9px;
+    padding-right: 31px;
+    font-family: cursive;
+    font-size: 21px;
+    border-radius: 12px;
+}
+@media screen and (max-width:600px)
+{
+    .Eight-percent
+    {
+        margin-top:3%;
+    }
+
+}
+.Seventy-percent
+{
+      width: 101px;
+    height: 31px;
+    background-image: linear-gradient(to right, red 50% , #6c757d 50%);
+    color: white;
+    padding-left: 9px;
+    padding-right: 31px;
+    font-family: cursive;
+    font-size: 21px;
+    border-radius: 12px; 
+}
+@media screen and (max-width:600px)
+{
+    .Seventy-percent
+    {
+        margin-top:3%;
+    }
+
+}
+/* Education*/
+
+
+#Education>p
+{
+       color: cadetblue;
+    font-size: 36px;
+    margin-left:41%;
+    font-family: cursive; 
+}
+@media screen and (max-width:600px){
+  
+    #Education>p
+    {
+        margin-left:52%; 
+    }
+
+
+}
+.new1
+{
+     margin-left:34%;
+    margin-top:-7.5%;
+}
+@media screen and (max-width:600px)
+{
+
+    .new1{
+        margin-left:70px;
+        margin-top:-21%;
+    }
+}
+#Education
+{
+       width: 59%;
+    margin-top: 2%;
+    margin-left: 22%;
+    background-color: white;
+    height:108%;
+}
+.Edu
+{
+    Width:216px;
+}
+.Edu:nth-child(2n)
+{
+/*    background-color: aqua;*/
+    margin-left:63%;
+    
+    
+}
+@media screen and (max-width:600px)
+{
+    .Edu:nth-child(2n)
+    {
+        margin-left:8%;
+    }
+
+}
+
+.Edu:nth-child(2n+1)
+{
+  
+}
+.Edu 
+{
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    font-family: monospace;
+    font-size: 1.1rem;
+    
+    
+}
+/*timeLine Divider in Education*/
+ .timelinedivider
+{
+        height: 75%;
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-top: -75%;
+    
+    border-right: 1px dashed black;
+    
+}
+@media screen and (max-width:600px)
+{
+    .timelinedivider
+    {
+        margin-top:-200%;
+        border-right: 1px dashed black;
+        margin-left:35%;
+    } 
+}
+.Aeroplane{
+margin-left: 102%;
+    transform: rotate(180deg);
+    margin-top:3%;
+    position: sticky;
+    top:25%;
+}
+.car
+{
+    margin-left: 98%;
+    transform: rotate(0deg);
+    margin-top:3%;
+    position: sticky;
+    top:25%;
+}
+/*certificates*/
+
+#Certificates
+{
+     width: 59%;
+    margin-top: 2%;
+    margin-left: 22%;
+     height:120%;
+    background-color: white;
+    
+}
+#Certificates>p
+{
+    color: cadetblue;
+    font-size: 36px;
+    margin-left:41%;
+    font-family: cursive; 
+}
+/*Contact*/
+
+#Contact
+{
+    background-image: linear-gradient(to right , blue, pink);
+}
+.form label
+{
+    display: block;
+    
+}
+.form input
+{
+    display: block;
+}
+.form
+{
+   
+    
+/*        border: 1px dashed black;*/
+    width: 20%;
+    padding: 2%;
+    box-sizing: border-box;
+    margin-left: 19%;
+}
+.form input[type="submit"]
+{
+    margin-left: 10%;
+    margin-top:2%;
+}
+#Contact>h2
+{
+    color: black;
+    font-size: 36px;
+    margin-left:41%;
+    font-family: cursive; 
+}
+#location
+{
+        margin-left: 75%;
+    margin-top: -18%;
+}
+@media screen and (max-width:600px)
+{
+    #location
+    {
+       margin-left:18%; 
+          margin-top:1%;
+    }
+}
